@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cad9af29b90c4002904bbd42578cfaf3, type: 3}
+  m_Name: TestMon
+  m_EditorClassIdentifier: 
+  mon:
+    name: Pokemon
+    description: Testing the current version of updating mons
+    moves:
+    - {fileID: 11400000, guid: 40f41145bf4af4d39b12f361c57e5c6b, type: 2}
+    stats:
+      baseType: 0
+      baseAttack: 12
+      baseDefense: 12
+      baseSpeed: 12
+      spawnInfo:
+        baseRarity: 0
+        shinyRarity: 0
+        groupSize: 6
+        spawnArea: 0
+        image: {fileID: 0}
+    prefab: {fileID: 349357417989167540, guid: 1a2efbfc18c4e4c1e8710ce99427607f, type: 3}
+    shinyPrefab: {fileID: 7977329214061973084, guid: b81ce00e08eb74ec5a9470a06c899d75, type: 3}

@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 180d696e74454daeb68f72180d47ffd1, type: 3}
+  m_Name: TestBiome
+  m_EditorClassIdentifier: 
+  areaType: 0
+  areaSize: {x: 0, y: 0, z: 0}
+  areaName: Axios Desert
+  areaDescription: In a world with a desert
+  spawnableMons:
+  - {fileID: 11400000, guid: 7c71be872e1464563856103599027c66, type: 2}
