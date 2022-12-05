@@ -11,7 +11,7 @@ namespace _Scripts.Managers
 
         [SerializeField] private GameObject inventoryUI;
 
-        public Interaction _interaction;
+        public Interaction interaction;
         
         public void AddItem(ItemTemplate item, int amount)
         {
@@ -20,7 +20,7 @@ namespace _Scripts.Managers
 
         private void ToggleInventory()
         {
-            if (_interaction.InventoryToggle())
+            if (interaction.InventoryToggle())
             {
                 inventoryUI.SetActive(!inventoryUI.activeSelf);
             }
