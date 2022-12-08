@@ -4,7 +4,8 @@ Play it [here]()
 
 ### About 
 --- 
-Mumble mon is a gmae all about searching for creaters and stratigising on the best way to defeat them.
+Mumble mon is a gmae all about searching for creaters and figuring out the best way to defeat them. By using the turn-based combat system, you can fight with creatures that you have already captured and defeat NPCs.
+
 
 ### Turn Based Combat
 ---
